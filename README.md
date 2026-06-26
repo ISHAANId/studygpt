@@ -1,10 +1,10 @@
-# 🌸 StudyGPT — AI-Powered Study Companion
+# StudyGPT — AI-Powered Study Companion
 
 > **Your personal AI tutor that transforms PDF notes into interactive learning experiences.**
 
 ---
 
-## 🚀 Deployed Link
+##  Deployed Link
 
 | Environment | URL |
 |---|---|
@@ -16,7 +16,7 @@
 
 ---
 
-## 🏗️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 
@@ -64,7 +64,7 @@
 
 ---
 
-## 🧠 Architecture Overview
+## Architecture Overview
 
 ```
 ┌──────────────────────────────────────────────────────┐
@@ -110,25 +110,25 @@
 
 ---
 
-## ✨ Features
+## Features
 
-### 📄 PDF Upload & Processing
+###  PDF Upload & Processing
 - Upload study notes as PDF files
 - Automatic text extraction with **PyPDF**
 - Text chunking (1500 chars, 50 overlap) via **LangChain**'s `RecursiveCharacterTextSplitter`
 - Semantic embeddings using **all-MiniLM-L6-v2** stored in a **FAISS** vector database
 
-### 💬 AI Chat
+###  AI Chat
 - Ask questions from your uploaded notes
 - RAG (Retrieval-Augmented Generation) pipeline: top-4 similarity search → LLM answer
 - Context-aware responses powered by **Ollama (llama3.2)**
 
-### 🧠 AI Tutor
+### AI Tutor
 - Automatic topic extraction from uploaded notes (4–10 topics)
 - Structured lesson generation (Definition → Explanation → Example → Key Point)
 - Follow-up doubt resolution within the context of the lesson
 
-### 📝 Quiz Center (5 Modes)
+### Quiz Center (5 Modes)
 | Mode | Description |
 |---|---|
 | **Flashcard** | AI-generated Q&A flashcards with reveal animation |
@@ -137,27 +137,27 @@
 | **Long Answer** | Detailed essay-style questions with scoring |
 | **Rapid Fire** | Timed challenge (10-second countdown) with instant feedback |
 
-### 📊 Progress Tracking
+###  Progress Tracking
 - Visual progress dashboard with statistics
 - Topics learned, quiz accuracy, and study streak tracking
 - Per-topic progress bars
 
-### 🔗 Resources
+###  Resources
 - Auto-generated YouTube search links for selected topics
 - Google search links for tutorials and articles
 - Previous year questions search
 
-### 🎙 Voice Tutor
+###  Voice Tutor
 - Voice-based interaction with the AI tutor
 - Audio transcription via **OpenAI Whisper**
 - Text-to-speech responses
 
-### ⚙️ Settings
+###  Settings
 - Customizable user preferences
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 studygpt/
@@ -205,7 +205,7 @@ studygpt/
 
 ---
 
-## 🛠️ Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -263,7 +263,7 @@ VITE_API_URL=http://localhost:8000
 
 ---
 
-## 🎨 Design System
+##  Design System
 
 The frontend uses a warm, premium color palette defined in Tailwind CSS v4's `@theme`:
 
@@ -279,7 +279,7 @@ The frontend uses a warm, premium color palette defined in Tailwind CSS v4's `@t
 
 ---
 
-## 📡 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description |
 |---|---|---|
@@ -293,7 +293,7 @@ The frontend uses a warm, premium color palette defined in Tailwind CSS v4's `@t
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Ishaani Dongre**
 
