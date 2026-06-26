@@ -22,8 +22,8 @@
 
 | Technology | Version | Purpose |
 |---|---|---|
-| **React** | `^19.2.6` | UI library for building component-based interfaces |
-| **TypeScript** | `~6.0.2` | Static typing for safer, more maintainable code |
+| **React** | ^19.2.6` | UI library for building component-based interfaces |
+| **TypeScript** | ~6.0.2` | Static typing for safer, more maintainable code |
 | **Vite** | `^8.0.12` | Lightning-fast build tool & dev server with HMR |
 | **Tailwind CSS** | `^4.3.1` | Utility-first CSS framework (v4 with `@tailwindcss/vite` plugin) |
 | **React Router DOM** | `^7.18.0` | Client-side routing (SPA navigation) |
@@ -299,6 +299,6 @@ The frontend uses a warm, premium color palette defined in Tailwind CSS v4's `@t
 
 ---
 
-## 📝 License
+##  License
 
 This project is for educational purposes.
